@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400|Roboto:100,300,400');
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+/* Header start */
+.NAV{
+position: absolute;
+left: 195px;
+}
+.cont{
+    background-color: #223047;
+}
+.phone{
+
+}
+.center-elements{
+    display: block;
+    margin:auto
+}
+.nav-color{
+    color: white;
+}
+.item-one{
+    margin:3px;
+    padding: 3px;
+}
+
+.item-two{
+    margin:3px;
+    padding: 3px;
+}
+
+.item-three{
+    margin:3px;
+    padding: 3px;
+}
+.item-four{
+    margin:3px;
+    padding: 3px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+
+    border-color: rgb(255,255,255);
+  } 
+
+  /* Header End */
+
+  /* Banner start */
+.banner{
+    background-color:#223047;
+    margin-bottom: 70px;
+}
+.about {
+    margin-top: 70px;
+    width: 50%;
+}
+.text{
+    
+    color:white;
+    position: absolute;
+    top: 90px;
+    left: 195px;
+    
+}
+.text-image{    
+    color:white;
+    position: absolute;
+    top: 100px;
+    left: 195px;
+    
+
+}
+.extra-text{
+    
+    width: 25%;
+}
+.btn:hover{
+    background-color: #19EBEA;
+    color:black;
+}
+  /* banner end */
+
+/* Middle Start */
+.info{
+    text-align: center;
+    margin-top: 120px;
+}
+.line{
+
+        width: 120px;
+        width: 120px;
+        border-bottom: 3px solid #19EBEA;
+        margin-top: 67px;
+        
+        
+}
+.Functionality{
+    width: 80%;
+    margin: auto;
+}
+.IMAGE{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.box p{
+    width: 80%;
+    margin: auto;
+    color: black;
+}
+.box h5{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Middle End */
+
+/* Get More start */
+.contain{
+    margin-top: 150px;
+}
+.empty{
+    background-color: #223047;
+}
+.right {
+margin-left: 150px;
+margin-top: 100px;
+}
+.right p{
+    margin-top: 50px;
+    text-align: left;
+    color: black;
+    width: 60%;
+    margin-bottom: 100px;
+}
+/* Get More end */
+
+/* Stable and Ready start */
+.inner{
+    width: 80%;
+    margin-bottom: 146px;
+   
+}
+.st h4{
+    margin-left: 389px;
+    margin-bottom: 50px;
+}
+.st p{
+
+    width: 80%;
+    text-align: right;
+    margin-left: 118px;
+
+
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    box-shadow:10px 10px grey;
+    margin-left: 150px;
+}
+.stable{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+/* Stable and Ready end */
+
+/* Description Start */
+.one{
+    padding-top: 18px;
+    padding-left: 50px;
+    border-radius: 15px;
+}
+.one:hover{
+background-color: #19EBEA;
+}
+.desc{
+    margin-bottom: 150px;
+}
+/* Description End */
+
+/* Everything you need start  */
+.everything{
+    margin-bottom: 100px;
+}
+.ev{
+    margin-left: 389px;
+    margin-bottom: 30px;
+}
+.fa-check{
+    background-color:#19EBEA;
+    position: relative;
+    left: 490px;
+    padding: 3px;
+    border-radius: 17px;
+}
+.Android{
+    top: 30px;
+    position: relative;
+    left: 526px;
+}
+.Andr{
+    width: 70%;
+    position: relative;
+    text-align: right;
+    top: 40px;
+    left: 97px;
+}
+.empty-box_1{
+    width: 30%;
+    height: 130%;
+    background-color:white;
+    box-shadow:10px 10px gray;
+    position: relative;
+}
+.empty-box_2{
+    width: 30%;
+    height: 130%;
+    background-color: #223047;
+    position: relative;
+    left: 150px;
+}
+/* Everything you need end  */
+
+/* play start */
+
+.play{
+    background-color: #223047;
+ 
+}
+.fa-play-circle:before {
+    content: "\f144";
+    font-size: 64px;
+    color: #19EBEA;
+    padding-top:190px;
+}
+/* play end */
+
+/* paragraph start */
+.para{
+    background-color: #223047;
+}
+/* paragraph end */
+
+/* Available start */
+.sm-phone{
+    position: relative;
+    left: 300px;
+    margin-top: 100px;
+}
+.right-avail{
+    margin-left: 150px;
+margin-top: 211px;
+}
+
+.f{
+    width: 45%;
+    margin: auto;
+}
+/* Available end */
+
+/* Footer */
+.foot{
+    background-color: #223047;
+}
+.social{
+    float: right;
+    margin-top: 5px;
+}
+
+.fa-facebook{
+    margin-right: 20px;
+    color: white;
+}
+.fa-twitter{
+    margin-right: 20px;
+    color: white;
+}
+.fa-dribbble{
+    margin-right: 20px;
+    color: white;
+}
+.fa-google-plus{
+    margin-right: 20px;
+    color: white;
+}
+.fa-youtube{
+    margin-right: 260px;
+    color: white;
+}
